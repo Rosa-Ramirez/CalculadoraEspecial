@@ -8,4 +8,7 @@ public class FuncionesBasicas {
     public double resta (double a, double b) {
         return a - b;
     }
+    public double multiplicacion (double a, double b) {
+        return a * b;
+    }
 }
