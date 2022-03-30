@@ -7,5 +7,8 @@ public class FuncionesEspeciales {
     public double raiz (double a) {
         return Math.sqrt(a);
     }
+    public double tangente (double a) {
+        return Math.tan(a);
+    }
     
 }
