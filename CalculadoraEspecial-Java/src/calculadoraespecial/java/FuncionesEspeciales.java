@@ -10,5 +10,8 @@ public class FuncionesEspeciales {
     public double tangente (double a) {
         return Math.tan(a);
     }
+    public double seno (double a) {
+        return Math.sin(a);
+    }
     
 }
