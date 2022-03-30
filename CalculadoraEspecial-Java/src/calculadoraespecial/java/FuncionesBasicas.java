@@ -1,10 +1,9 @@
 
 package calculadoraespecial.java;
 
-/**
- *
- * @author ramir
- */
 public class FuncionesBasicas {
+    public double suma (double a, double b) {
+        return a + b;
+    }
     
 }
