@@ -1,17 +1,17 @@
 package calculadoraespecial.java;
 
 public class FuncionesEspeciales {
-    public double valorAbsoluto (double a) {
-        return Math.abs(a);
+    public double valorAbsoluto (double numero) {
+        return Math.abs(numero);
     }
-    public double raiz (double a) {
-        return Math.sqrt(a);
+    public double raiz (double raiz) {
+        return Math.sqrt(raiz);
     }
-    public double tangente (double a) {
-        return Math.tan(a);
+    public double tangente (double tan) {
+        return Math.tan(tan);
     }
-    public double seno (double a) {
-        return Math.sin(a);
+    public double seno (double sin) {
+        return Math.sin(sin);
     }
     
 }
