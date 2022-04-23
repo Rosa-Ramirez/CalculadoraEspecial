@@ -18,8 +18,7 @@ public class CalculadoraEspecialJava {
         System.out.println("7. Tangente");
         System.out.println("8. Seno");
         accion = escaner.nextInt();
-        
-        FuncionesBasicas Calculadora = new FuncionesBasicas(); 
+       
         FuncionesEspeciales CalculadoraEspecial = new FuncionesEspeciales();
         switch (accion) {
             case 1:
@@ -28,7 +27,7 @@ public class CalculadoraEspecialJava {
                 sum1 = escaner.nextDouble();
                 System.out.println("Ingrese el segundo valor");
                 sum2 = escaner.nextDouble();
-                System.out.println(Calculadora.suma(sum1, sum2));
+                System.out.println(CalculadoraEspecial.suma(sum1, sum2));
                 break;
                 
             case 2:
@@ -37,7 +36,7 @@ public class CalculadoraEspecialJava {
                 resta1 = escaner.nextDouble();
                 System.out.println("Ingrese el segundo valor");
                 resta2 = escaner.nextDouble();
-                System.out.println(Calculadora.resta(resta1, resta2));
+                System.out.println(CalculadoraEspecial.resta(resta1, resta2));
                 break;
                 
             case 3:
@@ -46,7 +45,7 @@ public class CalculadoraEspecialJava {
                 mult1 = escaner.nextDouble();
                 System.out.println("Ingrese el segundo valor");
                 mult2 = escaner.nextDouble();
-                System.out.println(Calculadora.multiplicacion(mult1, mult2));
+                System.out.println(CalculadoraEspecial.multiplicacion(mult1, mult2));
                 break;
                 
             case 4:
@@ -55,7 +54,7 @@ public class CalculadoraEspecialJava {
                 division1 = escaner.nextDouble();
                 System.out.println("Ingrese el segundo valor");
                 division2 = escaner.nextDouble();
-                System.out.println(Calculadora.division(division1, division2));
+                System.out.println(CalculadoraEspecial.division(division1, division2));
                 break;
                 
             case 5:

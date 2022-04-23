@@ -1,6 +1,6 @@
 package calculadoraespecial.java;
 
-public class FuncionesEspeciales {
+public class FuncionesEspeciales extends FuncionesBasicas{
     public double valorAbsoluto (double numero) {
         return Math.abs(numero);
     }
